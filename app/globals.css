@@ -1,0 +1,136 @@
+@import 'tailwindcss';
+
+/* base styles */
+
+.text__primary {
+  @apply text-[#02DE18];
+}
+
+.section__top {
+  @apply pt-[25vh] px-[5vw];
+}
+
+.heading_two {
+  @apply text-4xl xl:text-6xl text-white font-bold;
+}
+.heading__para {
+  @apply text-base xl:text-xl text-[#b7b7b8];
+}
+
+.heading__three {
+  @apply text-2xl lg:text-4xl xl:text-4xl text-white font-semibold;
+}
+
+.heading__four {
+  @apply text-2xl xl:text-3xl text-white font-medium;
+}
+.heading__five {
+  @apply text-xl xl:text-2xl text-white  font-medium;
+}
+
+.base__text {
+  @apply text-base lg:text-lg text-[#b7b7b8];
+}
+
+/* common uses styles  */
+.section__header {
+  @apply max-w-4xl mx-auto text-center space-y-5;
+}
+
+.gradient__text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-green-800 via-green-500 to-green-600;
+}
+
+/* starts section styles */
+
+.r__stats__container {
+  @apply grid lg:grid-cols-3 gap-[10vw] lg:gap-[15vw] mt-[15vh] px-[5vw];
+}
+.r__starts__border {
+  @apply border-t-2 border-white/10 pt-[5vh];
+}
+
+.r__starts__title {
+  @apply text-6xl lg:text-7xl xl:text-8xl font-bold
+}
+
+
+/* ready applications section styles */
+.r__application__border {
+  @apply border border-white/10 p-5 items-end rounded-lg;
+}
+.r__application__video {
+  @apply w-full h-auto rounded-lg
+}
+.r__application__content__gap {
+  @apply  pr-[10vw] pt-[5vh] pb-[2vh]
+}
+.r__application__parent__grid {
+  @apply grid lg:grid-cols-2 gap-5
+}
+
+
+/* stories section styles */
+.r__stories__container {
+  @apply grid lg:grid-cols-2 justify-between gap-x-[30vw] z-10 space-y-[5vh] lg:space-y-0
+}
+
+/* top tier container */
+.r__top__container {
+  @apply grid lg:grid-cols-[68%_30%] justify-between mt-10
+}
+
+.r__top__images {
+  @apply  object-cover w-full h-[50vh] rounded-md
+}
+
+.r__top__logos__container {
+  @apply bg-gradient-to-b from-[#131515] to-[#222626] p-3 rounded-md h-[10vh] lg:w-[15vw] flex items-center justify-center mx-2
+}
+
+
+/* get started styles */
+.r__get__container {
+  @apply pt-16  grid md:grid-cols-2 gap-10 pb-10 
+}
+
+.r__get__card__parent {
+  @apply bg-[#18181A]  rounded-2xl border border-white/10 shadow-md text-white
+}
+
+.r__get__list__parent {
+  @apply  flex items-center gap-2
+}
+
+.r__get__card__bottom__parent {
+  @apply flex flex-col lg:flex-row justify-center lg:space-y-0 space-y-5 lg:justify-between items-center border-white/10 border-t-2 pt-5
+}
+
+.r__get__bottom__btn {
+  @apply text-white border border-white  px-4 py-2 rounded-full font-medium
+}
+
+.r__get__bottom__btn__text{
+  @apply  text-gray-400 text-sm md:text-base
+}
+
+/* input styles */
+
+.r__stay__input {
+  @apply py-4 px-4 text-white/80 outline-none  w-full xl:w-auto border border-white/10
+}
+
+
+/* footer sytles */
+
+.r__footer__conatainer {
+  @apply grid lg:grid-cols-[65%__25%] justify-between border-t border-b border-white/10 pb-10 pt-[5vh]
+}
+
+.r__position__text {
+  @apply mt-2 px-4 py-2 mb-10 lg:mb-0 border border-white/10 rounded-full text-base cursor-not-allowed
+}
+
+.r__footer__list__hover {
+  @apply hover:text-white hover:underline underline-offset-4 transition
+}

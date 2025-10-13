@@ -1,0 +1,201 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.gastronomicartsbarcelona.com/#organization",
+      "name": "Gastronomic Arts Barcelona || GAB LAB",
+      "url": "https://www.gastronomicartsbarcelona.com/",
+      "logo": "https://pub-5260083a74e8417dbf3c46f74bb3fdc5.r2.dev/Gastronmic_Arts_Barcelona_Logo.avif",
+      "sameAs": [
+        "https://www.facebook.com/gablabbcn",
+        "https://www.instagram.com/gablabbcn",
+        "https://www.linkedin.com/company/gablabbcn",
+        "https://x.com/GabLabBCN"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.gastronomicartsbarcelona.com/#website",
+      "url": "https://www.gastronomicartsbarcelona.com",
+      "name": "Gastronomic Arts Barcelona",
+      "description": "Join immersive culinary classes in Barcelona. Learn to cook authentic paella and explore Spain’s rich food traditions with Gastronomic Arts Barcelona.",
+      "publisher": { "@id": "https://www.gastronomicartsbarcelona.com/#organization" }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.gastronomicartsbarcelona.com/#pages",
+      "name": "Website Pages",
+      "itemListElement": [
+        {
+          "@type": "WebPage",
+          "name": "Ultimate Paella Class",
+          "url": "https://www.gastronomicartsbarcelona.com/ultimate-paella-class-in-barcelona",
+          "description": "Join a fun and immersive cooking class in Barcelona and learn to make traditional Spanish paella with expert chefs in a lively kitchen setting.",
+          "provider": { "@id": "https://www.gastronomicartsbarcelona.com/#organization" }
+        },
+        {
+          "@type": "WebPage",
+          "name": "Our Classes",
+          "url": "https://www.gastronomicartsbarcelona.com/our-classes",
+          "description": "Take part in hands-on cooking classes in Barcelona where local chefs teach you how to prepare authentic recipes in a fun and relaxed setting.",
+          "provider": { "@id": "https://www.gastronomicartsbarcelona.com/#organization" }
+        },
+        {
+          "@type": "WebPage",
+          "name": "Partnership",
+          "url": "https://www.gastronomicartsbarcelona.com/partnership",
+          "description": "Partner with Gastronomic Arts Barcelona to craft unforgettable culinary journeys. Grow together with unique food and travel collaborations.",
+          "provider": { "@id": "https://www.gastronomicartsbarcelona.com/#organization" }
+        },
+        {
+          "@type": "WebPage",
+          "name": "Private Group",
+          "url": "https://www.gastronomicartsbarcelona.com/private-group",
+          "description": "Plan your next event with Gastronomic Arts Barcelona private cooking classes tailored for corporate events, birthdays, and group celebrations.",
+          "provider": { "@id": "https://www.gastronomicartsbarcelona.com/#organization" }
+        },
+        {
+          "@type": "WebPage",
+          "name": "Our Story",
+          "url": "https://www.gastronomicartsbarcelona.com/our-story",
+          "description": "From local roots to global tables, this is the journey that shaped who we are and why we do what we love.",
+          "provider": { "@id": "https://www.gastronomicartsbarcelona.com/#organization" }
+        },
+        {
+          "@type": "WebPage",
+          "name": "Contact Us",
+          "url": "https://www.gastronomicartsbarcelona.com/contact-us",
+          "description": "Whether you're booking a class or need more details, we're just a message away and happy to assist you.",
+          "provider": { "@id": "https://www.gastronomicartsbarcelona.com/#organization" }
+        }
+      
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.gastronomicartsbarcelona.com/#courses",
+      "name": "Cooking Courses Grid",
+      "itemListElement": [
+        {
+          "@type": "Course",
+          "name": "Ultimate Paella Cooking Class",
+          "description": "Shop fresh ingredients, cook step-by-step with chefs, and enjoy an unforgettable hands-on paella experience in the heart of Barcelona.",
+          "url": "https://www.gastronomicartsbarcelona.com/ultimate-paella-class-in-barcelona",
+          "image": "https://pub-5260083a74e8417dbf3c46f74bb3fdc5.r2.dev/Class%20photos/Ultimate%20Paella%20Cooking%20Class%20Experience.avif",
+          "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "112" },
+          "provider": { "@id": "https://www.gastronomicartsbarcelona.com/#organization" },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.gastronomicartsbarcelona.com/ultimate-paella-class-in-barcelona",
+            "priceCurrency": "EUR",
+            "price": "105",
+            "availability": "https://schema.org/InStock"
+          },
+          "hasCourseInstance": {
+            "@type": "CourseInstance",
+            "courseMode": "Onsite",
+            "location": {
+              "@type": "Place",
+              "name": "Gastronomic Arts Barcelona",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Barcelona",
+                "addressCountry": "ES"
+              }
+            }
+          }
+        },
+        {
+          "@type": "Course",
+          "name": "Sangria & Tapas Cooking Class with Local Beer Tasting",
+          "description": "Join our Hands-On Sangria & Tapas Cooking Class in Barcelona for a fun experience. Learn to make authentic tapas and enjoy local beer tasting.",
+          "url": "https://www.gastronomicartsbarcelona.com/sangria-tapas-cooking-class",
+          "image": "https://pub-5260083a74e8417dbf3c46f74bb3fdc5.r2.dev/Class%20photos/sangria-and-tapas.avif",
+          "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "90" },
+          "provider": { "@id": "https://www.gastronomicartsbarcelona.com/#organization" },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.gastronomicartsbarcelona.com/sangria-tapas-cooking-class",
+            "priceCurrency": "EUR",
+            "price": "54",
+            "availability": "https://schema.org/InStock"
+          },
+          "hasCourseInstance": {
+            "@type": "CourseInstance",
+            "courseMode": "Onsite",
+            "location": {
+              "@type": "Place",
+              "name": "Gastronomic Arts Barcelona",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Barcelona",
+                "addressCountry": "ES"
+              }
+            }
+          }
+        },
+        {
+          "@type": "Course",
+          "name": "Private Paella Cooking Class",
+          "description": "Enjoy a private, premium paella masterclass in Barcelona for up to 6 guests. Cook, sip sangria, and share an authentic culinary journey together.",
+          "url": "https://www.gastronomicartsbarcelona.com/premium-paella-masterclass",
+          "image": "https://pub-5260083a74e8417dbf3c46f74bb3fdc5.r2.dev/Class%20photos/private-pella-class.avif",
+          "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "50" },
+          "provider": { "@id": "https://www.gastronomicartsbarcelona.com/#organization" },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.gastronomicartsbarcelona.com/premium-paella-masterclass",
+            "priceCurrency": "EUR",
+            "price": "129",
+            "availability": "https://schema.org/InStock"
+          },
+          "hasCourseInstance": {
+            "@type": "CourseInstance",
+            "courseMode": "Onsite",
+            "location": {
+              "@type": "Place",
+              "name": "Gastronomic Arts Barcelona",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Barcelona",
+                "addressCountry": "ES"
+              }
+            }
+          }
+        },
+        {
+          "@type": "Course",
+          "name": "Paella Cooking Class & Flamenco Show",
+          "description": "Cook authentic paella with expert chefs, enjoy great company, and feel the rhythm of Spanish cuisine in a vibrant, hands-on class.",
+          "url": "https://www.gastronomicartsbarcelona.com/rhythm-taste-paella-cooking-class",
+          "image": "https://pub-5260083a74e8417dbf3c46f74bb3fdc5.r2.dev/Class%20photos/Rhythm%20%26%20Taste%20%20Paella%20Cooking%20Class%20%26%20Flamenco%20Show.avif",
+          "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "reviewCount": "75" },
+          "provider": { "@id": "https://www.gastronomicartsbarcelona.com/#organization" },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.gastronomicartsbarcelona.com/rhythm-taste-paella-cooking-class",
+            "priceCurrency": "EUR",
+            "price": "135",
+            "availability": "https://schema.org/InStock"
+          },
+          "hasCourseInstance": {
+            "@type": "CourseInstance",
+            "courseMode": "Onsite",
+            "location": {
+              "@type": "Place",
+              "name": "Gastronomic Arts Barcelona",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Barcelona",
+                "addressCountry": "ES"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
