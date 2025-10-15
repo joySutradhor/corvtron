@@ -2,7 +2,6 @@ import Image from 'next/image'
 import React from 'react'
 
 export default function Stories () {
-  // ✅ Card Data Array
   const storiesData = [
     {
       id: 1,
@@ -31,14 +30,13 @@ export default function Stories () {
   ]
 
   return (
-    <div className='section__top relative overflow-hidden'>
+    <div className='section__top relative overflow-hidden' id='success'>
       {/* Background Layer */}
       <div
         className='absolute top-[40vh] right-[15vw] w-full h-full bg-no-repeat bg-top opacity-50 z-0'
         style={{
           backgroundImage:
             "url('https://cdn.prod.website-files.com/64eda916ec10005d85a2aa19/64ef89bac8fc6406391a9af0_Cases_BackgroundGrid.svg')",
-        //   backgroundSize: 'cover'
         }}
       ></div>
 

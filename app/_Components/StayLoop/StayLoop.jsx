@@ -2,7 +2,7 @@ import React from "react";
 
 export default function StayLoop() {
   return (
-    <div className="text-center section__top ">
+    <div className="text-center section__top " id="contact">
       <div className=" max-w-[85%] md:max-w-[70%] mx-auto ">
         <h2 className="heading_two">Stay in the loop</h2>
         <p className="heading__para font-semibold mb-8 mt-4 ">

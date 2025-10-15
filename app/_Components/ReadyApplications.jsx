@@ -3,7 +3,7 @@ import Applicatoins from './Applicatoins/Applicatoins'
 
 export default function ReadyApplications () {
   return (
-    <section className='section__top'>
+    <section className='section__top' id="template">
       <div className='section__header'>
         <h2 className='heading_two  '>Ready-made applications templates</h2>
         <p className='heading__para'>

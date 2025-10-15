@@ -134,3 +134,7 @@
 .r__footer__list__hover {
   @apply hover:text-white hover:underline underline-offset-4 transition
 }
+
+html {
+  scroll-behavior: smooth;
+}

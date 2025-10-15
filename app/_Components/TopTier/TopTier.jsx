@@ -11,7 +11,7 @@ export default function TopTier() {
   ];
 
   return (
-    <section className="section__top">
+    <section className="section__top" id="top-tier">
       <h2 className="heading_two text-center">
         Working with <span className="gradient__text">top-tier</span> customers
       </h2>

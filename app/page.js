@@ -9,10 +9,12 @@ import StayLoop from './_Components/StayLoop/StayLoop'
 import Intregration from './_Components/Intregration/Intregration'
 import SimpleStep from './_Components/SimpleStep/SimpleStep'
 import Accelerate from './_Components/Accelerate/Accelerate'
+import Hero from './_Components/Hero/Hero'
 
 export default function page () {
   return (
     <section>
+      <Hero/>
       <StatsSection />
       <ReadyApplications />
       <Stories />

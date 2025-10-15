@@ -55,7 +55,7 @@ export default function FeatureSlider() {
   const maxIndex = features.length - visibleCards;
 
   return (
-    <section className="min-h-screen overflow-hidden  text-white flex flex-col justify-center section__top">
+    <section className="min-h-screen overflow-hidden  text-white flex flex-col justify-center section__top" id="accelerate">
       <div className="lg:px-[5vw] w-full">
         {/* Subheading */}
         <div className="text-center">
