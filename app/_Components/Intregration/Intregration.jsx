@@ -95,7 +95,7 @@ export default function IntegrationGrid() {
                     className="h-20 max-w-[60%] object-contain grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition duration-300"
                   />
                   <div className="absolute bottom-3 left-3 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <button className="px-3 py-1.5 text-[#02DE18] rounded-full text-xs border border-white/10 transition-colors">
+                    <button className="px-3 py-1.5 text-[#ff0000] rounded-full text-xs border border-white/10 transition-colors">
                       {company.category}
                     </button>
                   </div>
@@ -130,7 +130,7 @@ export default function IntegrationGrid() {
                     className="h-24 max-w-[60%] object-contain grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition duration-300"
                   />
                   <div className="absolute bottom-4 left-4 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <button className="px-3 py-1.5 text-[#02DE18] rounded-full text-xs border border-white/10 transition-colors">
+                    <button className="px-3 py-1.5 text-[#ff0000] rounded-full text-xs border border-white/10 transition-colors">
                       {company.category}
                     </button>
                   </div>
@@ -176,7 +176,7 @@ export default function IntegrationGrid() {
                     className="h-32 max-w-[60%] object-contain grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition duration-300"
                   />
                   <div className="absolute bottom-5 left-5 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <button className="px-4 py-2 text-[#02DE18] rounded-full text-xs border border-white/10 transition-colors">
+                    <button className="px-4 py-2 text-[#ff0000] rounded-full text-xs border border-white/10 transition-colors">
                       {company.category}
                     </button>
                   </div>
@@ -192,7 +192,7 @@ export default function IntegrationGrid() {
                 <div
                   key={`plus-desktop-${row}-${col}`}
                   className={`absolute text-3xl pointer-events-none ${
-                    row === col ? "text-green-500" : "text-white/30"
+                    row === col ? "text-[#ff0000]" : "text-white/30"
                   }`}
                   style={{
                     top: `${(row / 3) * 100}%`,

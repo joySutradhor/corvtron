@@ -38,7 +38,7 @@
 }
 
 .gradient__text {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-green-800 via-green-500 to-green-600;
+  @apply bg-clip-text text-transparent  bg-gradient-to-r from-[#ff0000] to-[#c70000];
 }
 
 /* starts section styles */
@@ -112,6 +112,10 @@
 
 .r__get__bottom__btn__text{
   @apply  text-gray-400 text-sm md:text-base
+}
+
+.red-checkmark {
+  @apply text-[#ff0000]
 }
 
 /* input styles */

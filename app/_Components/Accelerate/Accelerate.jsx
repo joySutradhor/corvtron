@@ -87,7 +87,7 @@ export default function FeatureSlider() {
                   style={{
                     background:
                       hoveredIndex === index
-                        ? "linear-gradient(135deg, #10b981, #3b82f6, #8b5cf6)" 
+                        ? "linear-gradient(135deg, #ff0000,  #c70000)" 
                         : "linear-gradient(135deg, #111, #333)", 
                   }}
                 >
@@ -100,7 +100,7 @@ export default function FeatureSlider() {
                     <span
                       className={`text-xs mb-4 block font-light tracking-wider transition-colors duration-300 ${
                         activeIndex === index || hoveredIndex === index
-                          ? "text-green-500"
+                          ? "text-[#ff0000]"
                           : "text-white/30"
                       }`}
                     >
@@ -139,7 +139,7 @@ export default function FeatureSlider() {
                     <div
                       className={`mt-8 transition-colors duration-300 ${
                         activeIndex === index || hoveredIndex === index
-                          ? "text-green-500"
+                          ? "text-[#ff0000]"
                           : "text-white/40"
                       }`}
                     >
@@ -163,7 +163,7 @@ export default function FeatureSlider() {
                 key={i}
                 onClick={() => setActiveIndex(i)}
                 className={`h-2 rounded-full transition-all duration-300 ${
-                  activeIndex === i ? "bg-green-500 w-8" : "bg-white/20 w-2"
+                  activeIndex === i ? "bg-gradient-to-r from-[#ff0000] to-[#c70000] w-8" : "bg-white/20 w-2"
                 }`}
               />
             ))}
@@ -172,7 +172,7 @@ export default function FeatureSlider() {
           {/* Progress bar */}
           <div className="w-[40vw]  h-[2px] bg-white/10 rounded-full overflow-hidden relative">
             <div
-              className="absolute h-full bg-green-500 transition-all duration-300 rounded-full"
+              className="absolute h-full bg-gradient-to-r from-[#ff0000] to-[#c70000] transition-all duration-300 rounded-full"
               style={{
                 width: `${((activeIndex + 1) / (maxIndex + 1)) * 100}%`,
               }}

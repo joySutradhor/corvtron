@@ -16,7 +16,7 @@ export default function Applicatoins () {
             <div className='absolute top-5 right-5 lg:left-5'>
               <div className='flex items-center gap-x-2.5'>
                 <p className='text-sm font-medium text-white'>01</p>
-                <p className='size-2 rounded-full bg-[#02DE18]'></p>
+                <p className='size-2 rounded-full bg-[#ff0000]'></p>
               </div>
             </div>
           </div>

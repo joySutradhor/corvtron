@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { FaCheck } from "react-icons/fa";
 
 export default function GetStarted() {
   const products = [
@@ -36,7 +37,7 @@ export default function GetStarted() {
       <div>
         <section>
           <div className="text-center">
-            <h2 className="heading_two mb-5">Get started with RiACT.</h2>
+            <h2 className="heading_two mb-5">Get started with Corvtron.</h2>
             <p className="base__text">
               Crafted for operators and integrators, fueled by robust OEM
               partnerships.
@@ -59,23 +60,24 @@ export default function GetStarted() {
                   through a highly intuitive interface.
                 </p>
                 <ul className="space-y-2 mb-6 base__text">
-                  <li className="r__get__list__parent">
-                    <span>✔️</span> Simple to use
+                  <li className="r__get__list__parent flex items-center gap-2">
+                    <FaCheck color="#ff0000" />
+                    <span>Simple to use</span>
                   </li>
-                  <li className="r__get__list__parent">
-                    <span>✔️</span> Fast to configure
+                  <li className="r__get__list__parent flex items-center gap-2">
+                    <FaCheck color="#ff0000" />
+                    <span>Fast to configure</span>
                   </li>
-                  <li className="r__get__list__parent">
-                    <span>✔️</span> One interface for everything
+                  <li className="r__get__list__parent flex items-center gap-2">
+                    <FaCheck color="#ff0000" />
+                    <span>One interface for everything</span>
                   </li>
                 </ul>
                 <div className="r__get__card__bottom__parent">
                   <p className="text-gray-500  ">
                     Subscription or lifetime model
                   </p>
-                  <button className="r__get__bottom__btn">
-                    Request Quote
-                  </button>
+                  <button className="r__get__bottom__btn">Request Quote</button>
                 </div>
               </div>
 
@@ -94,21 +96,28 @@ export default function GetStarted() {
                 </p>
                 <ul className="space-y-2 mb-6 base__text">
                   <li className="r__get__list__parent">
-                    <span>✔️</span> Connect hardware easily
+                    <span className="text-[#ff0000] inline-block mr-2">
+                      <FaCheck />
+                    </span>
+                    Connect hardware easily
                   </li>
                   <li className="r__get__list__parent">
-                    <span>✔️</span> Simulate and sell
+                    <span className="text-[#ff0000] inline-block mr-2">
+                      <FaCheck />
+                    </span>
+                    Simulate and sell
                   </li>
                   <li className="r__get__list__parent">
-                    <span>✔️</span> Deploy faster
+                    <span className="text-[#ff0000] inline-block mr-2">
+                      <FaCheck />
+                    </span>
+                    Deploy faster
                   </li>
                 </ul>
 
                 <div className="r__get__card__bottom__parent">
                   <p className="r__get__bottom__btn__text  ">Launching soon</p>
-                  <button className="r__get__bottom__btn">
-                    Join Beta
-                  </button>
+                  <button className="r__get__bottom__btn">Join Beta</button>
                 </div>
               </div>
             </section>
@@ -149,9 +158,7 @@ export default function GetStarted() {
                   <p className="r__get__bottom__btn__text">
                     Let’s enable the future of robots
                   </p>
-                  <button className="r__get__bottom__btn">
-                    Book a call
-                  </button>
+                  <button className="r__get__bottom__btn">Book a call</button>
                 </div>
               </div>
             </div>

@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Hero() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +24,7 @@ export default function Hero() {
         <div className="px-[5vw] flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold">
-            Ricat
+            <Image src="/Logo.png" height={1000} width={1000} className="h-[6vh] w-full object-fill" alt="logo" ></Image>
           </Link>
 
           {/* Desktop Nav */}
@@ -32,7 +33,7 @@ export default function Hero() {
               <Link
                 key={link.label}
                 href={link.href}
-                className="block w-full text-left hover:text-gray-300 cursor-pointer text-nowrap"
+                className="block w-full text-left hover:text-[#ff0000] cursor-pointer text-nowrap"
               >
                 {link.label}
               </Link>
@@ -41,8 +42,8 @@ export default function Hero() {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <button className="bg-white text-black px-4 py-2 rounded-md hover:bg-gray-200 transition">
-              Try for free
+            <button className="bg-gradient-to-r from-[#ff0000] to-[#c70000] text-white px-4 py-2 rounded-md  transition">
+              Get Started
             </button>
           </div>
 
@@ -68,7 +69,7 @@ export default function Hero() {
             ))}
 
             <button className="w-full bg-white text-black py-2 rounded-md">
-              Try for free
+              Get Started
             </button>
           </div>
         )}
@@ -100,10 +101,10 @@ export default function Hero() {
               hosting and development.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <button className="bg-white text-black px-6 py-3 rounded-md hover:bg-gray-200 transition">
-                Try for Free
+              <button className="bg-gradient-to-r from-[#ff0000] to-[#c70000]  px-6 py-2 rounded-md text-white transition">
+                Get Started
               </button>
-              <button className="border border-white px-6 py-3 rounded-md hover:bg-white hover:text-black transition">
+              <button className="border border-[#c70000] px-6 py-2 rounded-md hover:bg-[#c70000] hover:text-white transition">
                 Learn More
               </button>
             </div>

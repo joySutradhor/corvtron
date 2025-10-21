@@ -23,7 +23,7 @@ export default function StayLoop() {
           />
         </div>
         <div>
-          <button className="rounded-full py-3 px-10 border border-[#02DE18] mt-10 base__text">
+          <button className="rounded-full py-3 px-10 border border-[#ff0000] mt-10 base__text">
             Receive Updates
           </button>
         </div>

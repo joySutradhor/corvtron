@@ -45,7 +45,7 @@ export default function Stories () {
         {/* Left Section */}
         <div className='relative space-y-[5vh] lg:space-y-0'>
           <div>
-            <p className='heading__five !text-[#02DE18] mb-3'>
+            <p className='heading__five gradient__text mb-3'>
               Success stories
             </p>
             <h2 className='heading_two'>
@@ -54,7 +54,7 @@ export default function Stories () {
           </div>
 
           {/* Highlighted Story */}
-          <div className='bg-[#131315] border border-white/10 rounded w-full lg:absolute top-[55vh] -right-[20vw]  backdrop-blur-sm'>
+          <div className='bg-[#131315] border border-white/10 rounded w-full lg:absolute top-[55vh] -right-[25vw]  backdrop-blur-sm'>
             <Image
               src={storiesData[0].image}
               height={800}
